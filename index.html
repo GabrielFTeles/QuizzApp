@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="script.js" defer></script>
+  <title>Quiz App</title>
+</head>
+<body>
+  <main>
+    <section class="quiz-section">
+        <form action="" id="quiz-form">
+          <div class="quiz-container">
+            <h2 id="question">Loading...</h2>
+
+            <ul class="answer-list">
+              <li class="answer">
+                <input type="radio" name="answer" id="a_radio" value="a">
+                <label for="a_radio" id="a_answer">Loading...</label>
+              </li>
+
+              <li class="answer">
+                <input type="radio" name="answer" id="b_radio" value="b">
+                <label for="b_radio" id="b_answer">Loading...</label>
+              </li>
+
+              <li class="answer">
+                <input type="radio" name="answer" id="c_radio" value="c">
+                <label for="c_radio" id="c_answer">Loading...</label>
+              </li>
+
+              <li class="answer">
+                <input type="radio" name="answer" id="d_radio" value="d">
+                <label for="d_radio" id="d_answer">Loading...</label>
+              </li>
+            </ul>
+          </div>
+
+          <input class="form-button" id="submitBtn" type="submit" value="submit">
+          <button class="form-button" id="nextBtn">Next</button>
+        </form>
+    </section>
+  </main>
+</body>
+</html>

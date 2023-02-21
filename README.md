@@ -1,4 +1,4 @@
-# Login Page.
+# Quizz App.
 
 This is just a personal study project.
 

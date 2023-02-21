@@ -20,7 +20,7 @@ Git Pages - [Project](https://gabrielfteles.github.io/QuizzApp/)
 Users should be able to:
 
 - Answer the quizz.
-- Recieve feedback of how many answered correctly.
+- Recieve feedback of how many questions was answered correctly.
 
 ### Screenshot
 
